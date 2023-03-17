@@ -143,30 +143,38 @@
     transform: scale(1.2);
   }
   
-  /* Adicionando media query para telas menores */
-
-@media screen and (max-width: 768px) {
-
-    #input-box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+  /* Adicionando regra de CSS para tornar o site responsivo */
+@media only screen and (max-width: 768px) {
+    #calculator {
+      padding: 20px; /* Reduzindo o padding para telas menores */
     }
-
-    .input-field {
-        width: 100%;
+    
+    #calculator h2 {
+      font-size: 20px; /* Reduzindo o tamanho do título para telas menores */
     }
-
+    
     .input-field label {
-        margin-bottom: 5px;
+      font-size: 12px; /* Reduzindo o tamanho do label para telas menores */
     }
-
+    
     .input-field input {
-        width: 100%;
-        margin-bottom: 15px;
+      font-size: 16px; /* Reduzindo o tamanho do input para telas menores */
     }
-
-    #result {
-        text-align: center;
+    
+    #calculate {
+      font-size: 14px; /* Reduzindo o tamanho do botão para telas menores */
     }
-}
+    
+    #social-media {
+      flex-direction: column; /* Mudando a direção do flex para telas menores */
+      gap: 10px;
+      margin-top: 10px; /* Reduzindo a margem superior para telas menores */
+    }
+    
+    #social-media img {
+      height: 20px; /* Reduzindo o tamanho das imagens para telas menores */
+      margin-right: 0;
+      margin-bottom: 5px; /* Adicionando margem inferior para as imagens para telas menores */
+    }
+  }
+  
