@@ -46,10 +46,10 @@
 #calculator h2::before{
     position: absolute;
     content: '';
-    height: 3px;
-    width: 150px;
+    height: 2px;
+    width: 100px;
     background: var(--linear-gradient); /* Utilizando a variável do gradiente linear */
-    bottom: 5px;
+    bottom: 2px;
 }
 
 /* Configurando o container dos inputs */
@@ -159,22 +159,12 @@
     
     .input-field input {
       font-size: 16px; /* Reduzindo o tamanho do input para telas menores */
+      width: 100%; /* Fazendo o input ocupar toda a largura disponível */
     }
     
     #calculate {
       font-size: 14px; /* Reduzindo o tamanho do botão para telas menores */
     }
     
-    #social-media {
-      flex-direction: column; /* Mudando a direção do flex para telas menores */
-      gap: 10px;
-      margin-top: 10px; /* Reduzindo a margem superior para telas menores */
-    }
-    
-    #social-media img {
-      height: 20px; /* Reduzindo o tamanho das imagens para telas menores */
-      margin-right: 0;
-      margin-bottom: 5px; /* Adicionando margem inferior para as imagens para telas menores */
-    }
   }
   
