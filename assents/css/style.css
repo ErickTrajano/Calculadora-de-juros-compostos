@@ -166,5 +166,16 @@
       font-size: 14px; /* Reduzindo o tamanho do botão para telas menores */
     }
     
+    #social-media {
+      flex-direction: column; /* Mudando a direção do flex para telas menores */
+      gap: 10px;
+      margin-top: 10px; /* Reduzindo a margem superior para telas menores */
+    }
+    
+    #social-media img {
+      height: 20px; /* Reduzindo o tamanho das imagens para telas menores */
+      margin-right: 0;
+      margin-bottom: 5px; /* Adicionando margem inferior para as imagens para telas menores */
+    }
   }
   
